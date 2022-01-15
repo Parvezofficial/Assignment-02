@@ -91,6 +91,7 @@ body {
 }
 .banner-img {
   width: 95%;
+  flex: 1;
 }
 /* logo css  */
 .brand-identity {
@@ -107,6 +108,8 @@ body {
 /* popular section css  */
 .Popular-products h2 {
   text-align: center;
+  font-size: 36px;
+  margin: 65px 0px;
 }
 .products {
   display: grid;
