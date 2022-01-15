@@ -12,7 +12,7 @@ body {
  Common css and utilities  
  =========================*/
 .container {
-  max-width: 1350px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -31,7 +31,7 @@ body {
   display: flex;
 }
 .navbar ul li {
-  margin-right: 40px;
+  margin-right: 28px;
   list-style: none;
 }
 .navbar ul li a {
@@ -91,8 +91,8 @@ body {
   box-shadow: 0 0 0 0 white;
 }
 .banner-img {
-  width: 95%;
-  flex: 1;
+  width: 62%;
+  /* flex: 1; */
 }
 /* logo css  */
 .brand-identity {
@@ -193,3 +193,66 @@ footer {
   background: #0a0826;
   padding: 80px 0px;
 }
+/* media css  */
+/* responsive css */
+
+/* @media (max-width:950px){
+  .gallery{
+      grid-template-columns: 1fr 1fr;
+  }
+  .banner-left h1{
+      font-size: 35px;
+  }
+} */
+@media (max-width: 800px) {
+  .navigation{
+    display: block;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .banner {
+    height: 40vh;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content h1 {
+    font-size: 2em;
+    
+}
+  .banner-img {
+    display: none;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 27%;
+}
+  .brand-identity {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 29px;
+  }
+  .products {
+    grid-template-columns: 1fr;
+  }
+  .see-more{
+    text-align: center;
+  }
+  .contact {
+    margin: auto;
+  }
+  .image {
+    margin: auto;
+  }
+  .form{
+      width: 85%;
+      margin: auto;
+  }
+  .Contact{
+    display: block;
+  }
+  .form_content input,.form_content textarea{
+    width: 98%;
+  }
