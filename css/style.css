@@ -43,7 +43,7 @@ body {
 .banner {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  height: 91vh;
+  height: 83vh;
 }
 .banner-content{
   display: flex;
@@ -99,7 +99,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
 }
 /* logo css  */
 .brand-identity {
@@ -141,7 +140,7 @@ body {
 /* contact form css  */
 
 .Contact {
-  width: 70%;
+  width: 82%;
   display: flex;
   margin: auto;
   justify-content: center;
@@ -151,6 +150,7 @@ body {
   padding-top: 55px;
   border-radius: 10px;
   margin-bottom: 152px;
+  border: 1px solid #dbdbdb;
 }
 #image-header {
   text-align: center;
@@ -230,6 +230,17 @@ footer {
   }
 } */
 @media (max-width:1188px){
+  .logo{
+    text-align: center;
+  }
+  .navigation{
+    display: block;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
   .products {
     grid-template-columns: repeat(2, 1fr);
 }
@@ -254,6 +265,7 @@ footer {
   }
   .banner-img{
     width: 75%;
+    margin: auto;
   }
   .banner button{
     margin:auto;
@@ -297,3 +309,4 @@ footer {
   }
   .form_content input,.form_content textarea{
     width: 98%;
+  }
