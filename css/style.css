@@ -38,3 +38,23 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+.banner-content h1 {
+  font-size: 3.4em;
+}
+.banner-content p {
+  line-height: 25px;
+  margin: 20px 0px;
+}
+.banner-content button {
+  padding: 13px 27px;
+  border-radius: 20px;
+  border: none;
+  background: #ff418d;
+  color: #fff;
+}
