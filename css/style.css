@@ -1,4 +1,6 @@
-/* google font  */
+/*================
+  google font  
+==================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -18,8 +20,8 @@ body {
   padding: 0px 5px;
 }
 /*/=======================
- header css  
-  =========================*/
+  header css  
+=========================*/
 .navigation {
   display: flex;
   align-items: center;
@@ -100,7 +102,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-/* logo css  */
+/*================
+    brand identity css  
+  ===============*/
 .brand-identity {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -112,7 +116,9 @@ body {
   align-items: center;
 }
 
-/* popular section css  */
+/*====================
+popular section css
+======================  */
 .Popular-products h2 {
   text-align: center;
   font-size: 28px;
@@ -137,7 +143,9 @@ body {
   margin-top: 20px;
   text-decoration: none;
 }
-/* contact form css  */
+/*====================
+contact form css
+=====================*/
 
 .Contact {
   width: 82%;
@@ -195,7 +203,9 @@ body {
   outline: none;
 }
 
-/* footer css  */
+/*======================
+ footer css
+ ======================*/
 footer {
   background: #0a0826;
   padding: 45px 0px;
@@ -218,17 +228,9 @@ footer {
     border-radius: 20px;
     background: #22213C;
 }
-/* media css  */
-/* responsive css */
-
-/* @media (max-width:950px){
-  .gallery{
-      grid-template-columns: 1fr 1fr;
-  }
-  .banner-left h1{
-      font-size: 35px;
-  }
-} */
+/*===================
+ Responsive css
+ =================  */
 @media (max-width:1188px){
   .logo{
     text-align: center;
