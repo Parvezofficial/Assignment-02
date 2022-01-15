@@ -136,7 +136,8 @@ body {
 .contact {
   display: flex;
   justify-content: center;
-  transform: translate(0%, 50%);
+  transform: translate(0%, 25%);
+  align-items: center;
 }
 .image {
   width: 40%;
@@ -173,9 +174,13 @@ body {
   width: 100%;
 }
 .form_content input[type="submit"] {
-  background-color: #6c63ff;
-
+  background-color: #ff3786;
   width: auto;
-
   color: white;
+  border-radius: 8px;
+}
+/* footer css  */
+footer {
+  background: #0a0826;
+  padding: 30px 0px;
 }
