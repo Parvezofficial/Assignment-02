@@ -12,7 +12,7 @@ body {
  Common css and utilities  
  =========================*/
 .container {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -37,6 +37,7 @@ body {
 .navbar ul li a {
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 .banner {
   display: flex;
@@ -124,4 +125,57 @@ body {
 }
 .see-more {
   color: #e02c6d;
+  text-align: right;
+  display: block;
+  margin-right: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+/* contact form css  */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  transform: translate(0%, 50%);
+}
+.image {
+  width: 40%;
+  margin-right: 5%;
+}
+.image h1 {
+  font-size: 46px;
+  font-family: ui-monospace;
+}
+.image p {
+  color: #bcaeae;
+}
+.image img {
+  width: 100%;
+}
+.form {
+  width: 30%;
+}
+.form_content {
+  margin-top: 13px;
+}
+.form_content input {
+  width: 100%;
+
+  margin-bottom: 28px;
+
+  padding: 15px;
+
+  border: 1px solid #e0dede;
+}
+.form_content textarea {
+  margin-bottom: 28px;
+  border: 1px solid #e0dede;
+  width: 100%;
+}
+.form_content input[type="submit"] {
+  background-color: #6c63ff;
+
+  width: auto;
+
+  color: white;
 }
