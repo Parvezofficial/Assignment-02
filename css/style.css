@@ -42,6 +42,11 @@ body {
   font-weight: 500;
   cursor: pointer;
   color: #3A3A3A;
+  text-decoration: none;
+  transition: .4s all ease-in-out;
+}
+.navbar ul li a:hover{
+  color: #e02c6d;
 }
 .banner {
   display: grid;
@@ -57,25 +62,19 @@ body {
 .banner-content h1 {
   font-size: 2.3em;
 }
+#Influencer{
+  color: #e02c6d;
+}
 #title {
   font-size: 60px;
   white-space: nowrap;
-
   color: transparent;
-}
-#title {
-  content: "Influencer";
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #22bedd;
-  animation: typing 3s linear infinite;
 }
 .banner-content p {
   line-height: 25px;
   margin: 20px 0px;
 }
-.banner-content button {
+.btn {
   position: relative;
   margin-top: 4%;
   background: #ff3786;
@@ -93,7 +92,7 @@ body {
   top: 0;
 }
 
-.banner-content button:hover {
+.btn:hover {
   left: 4px;
   top: 4px;
   box-shadow: 0 0 0 0 white;
@@ -152,11 +151,16 @@ popular section css
 }
 .see-more {
   color: #e02c6d;
-  text-align: right;
+  text-align: center;
   display: block;
   margin-right: 30px;
-  margin-top: 20px;
+  font-size: 19px;
+  margin-top: 51px;
   text-decoration: none;
+  
+}
+.see-more:hover{
+  margin-right: 2px;
 }
 /*====================
 contact form css
@@ -207,11 +211,13 @@ contact form css
   width: 93%;
 }
 .form_content input[type="submit"] {
-  background-color: #ff5959;
+  background-color: #ff3786;
   width: auto;
   color: white;
   border-radius: 7px;
+  border: none;
   text-transform: uppercase;
+  box-shadow: 4px 4px 0px 0px rgb(118 57 217);
 }
 .form_content input:focus-visible,
 .form_content textarea:focus-visible {
@@ -287,9 +293,9 @@ footer p{
     font-size: 1.4em;
     margin:auto;
   }
-  .banner-content p{
-    margin:0:
-  }
+  .banner-content p {
+    margin: 0;
+}
   .banner-img{
     margin: auto;
   }
