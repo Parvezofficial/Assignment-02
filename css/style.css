@@ -40,14 +40,18 @@ body {
   cursor: pointer;
 }
 .banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   height: 93vh;
+}
+.banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .banner-content h1 {
   font-size: 2.7em;
-  position: relative;
 }
 #title {
   font-size: 60px;
@@ -91,8 +95,9 @@ body {
   box-shadow: 0 0 0 0 white;
 }
 .banner-img {
-  width: 62%;
-  /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* logo css  */
 .brand-identity {
@@ -109,7 +114,7 @@ body {
 /* popular section css  */
 .Popular-products h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   margin: 65px 0px;
 }
 .products {
@@ -120,7 +125,7 @@ body {
 .product {
   border: 1px solid #ededed;
   margin: auto;
-  padding: 30px;
+  padding: 17px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .see-more {
@@ -204,6 +209,11 @@ footer {
       font-size: 35px;
   }
 } */
+@media (max-width:1188px){
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
 @media (max-width: 800px) {
   .navigation{
     display: block;
@@ -212,18 +222,20 @@ footer {
     display: none;
   }
   .banner {
-    height: 40vh;
+    grid-template-columns: repeat(1,1fr);
   }
   .banner-content {
     text-align: center;
+    order: 2;
   }
   .banner-content h1 {
-    font-size: 2em;
-    
-}
-  .banner-img {
-    display: none;
+    font-size: 1.4em;
+    margin: auto;
   }
+  .banner button{
+    margin:auto;
+  }
+
   .logo {
     text-align: center;
   }
@@ -232,10 +244,16 @@ footer {
 }
   .brand-identity {
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 29px;
+    row-gap: 32px;
   }
   .products {
     grid-template-columns: 1fr;
+  }
+  .product{
+    padding: 17px;
+  }
+  .Popular-products h2{
+    font-size: 28px;
   }
   .see-more{
     text-align: center;
