@@ -167,7 +167,7 @@ contact form css
 =====================*/
 
 .Contact {
-  width: 82%;
+  width: 51%;
   display: flex;
   margin: auto;
   justify-content: center;
@@ -179,22 +179,6 @@ contact form css
   margin-bottom: 152px;
   border: 1px solid #dbdbdb;
 }
-#image-header {
-  text-align: center;
-  font-family: "Yeseva One";
-  font-size: 45px;
-}
-#header-content {
-  text-align: center;
-}
-.image {
-  width: 40%;
-  margin-right: 5%;
-}
-.image img {
-  width: 100%;
-}
-
 .form {
   width: 41%;
 }
@@ -329,9 +313,6 @@ footer p{
     text-align: center;
   }
   .contact {
-    margin: auto;
-  }
-  .image {
     margin: auto;
   }
   .form{
