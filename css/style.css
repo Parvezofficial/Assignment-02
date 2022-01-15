@@ -95,8 +95,21 @@ body {
 /* logo css  */
 .brand-identity {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  border-top: 2px solid #d3c7c761;
-  border-bottom: 1px solid #d3c7c761;
-  padding: 20px 0px;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 50px 0px;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* popular section css  */
+.Popular-products h2 {
+  text-align: center;
+}
+.products {
+}
+.product {
+  border: 1px solid grey;
 }
