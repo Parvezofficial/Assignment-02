@@ -12,7 +12,7 @@ body {
  Common css and utilities  
  =========================*/
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 25px;
 }
@@ -31,7 +31,7 @@ body {
   display: flex;
 }
 .navbar ul li {
-  margin-right: 20px;
+  margin-right: 40px;
   list-style: none;
 }
 .navbar ul li a {
@@ -45,16 +45,58 @@ body {
   height: 93vh;
 }
 .banner-content h1 {
-  font-size: 3.4em;
+  font-size: 2.7em;
+  position: relative;
+}
+#title {
+  font-size: 60px;
+  white-space: nowrap;
+
+  color: transparent;
+}
+#title {
+  content: "Influencer";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #22bedd;
+  animation: typing 3s linear infinite;
 }
 .banner-content p {
   line-height: 25px;
   margin: 20px 0px;
 }
 .banner-content button {
-  padding: 13px 27px;
-  border-radius: 20px;
-  border: none;
-  background: #ff418d;
-  color: #fff;
+  position: relative;
+  margin-top: 4%;
+  background: #ff3786;
+  border: 1px solid rgb(255 47 129);
+  padding: 20px;
+  font-size: 0.9em;
+  color: white;
+  box-shadow: 4px 4px 0px 0px rgb(118 57 217);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  transition: all 300ms ease-in-out;
+  left: 0;
+  top: 0;
+}
+
+.banner-content button:hover {
+  left: 4px;
+  top: 4px;
+  box-shadow: 0 0 0 0 white;
+}
+.banner-img {
+  width: 95%;
+}
+/* logo css  */
+.brand-identity {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: 2px solid #d3c7c761;
+  border-bottom: 1px solid #d3c7c761;
+  padding: 20px 0px;
 }
